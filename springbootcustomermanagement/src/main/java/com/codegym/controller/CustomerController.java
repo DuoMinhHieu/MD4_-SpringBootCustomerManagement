@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.Optional;
 
 @Controller
-@RequestMapping("/customers")
+    @RequestMapping("/customers")
 public class CustomerController {
     @Autowired
     private ICustomerService customerService;
